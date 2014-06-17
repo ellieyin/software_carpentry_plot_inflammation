@@ -14,7 +14,7 @@ options <- commandArgs(trailingOnly = TRUE)
  
 # load that csv from command line arg
 data.in <- read.csv(options[1])
- 
+
 # melt with defaults
 data.in.melted <- melt(data.in)
 #creat a plot with ggplot
